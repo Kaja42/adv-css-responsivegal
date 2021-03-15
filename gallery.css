@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  font-family: Arial;
+}
+.column {
+	
+	padding-left:350px;
+	padding-top: 50px;
+	border-radius:10%;
+	
+}
+.column img {
+
+	border-radius:10%;
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding:5px;
+}
+h2 {
+	
+	padding-left:355px;
+}
+p { 
+	
+	padding-left:355px;
+	padding-right:275px;
+}
+@media screen and (max-width: 1024px) {
+.column {
+width: 33.333%
+
+}
+}
+ 
+@media screen and (max-width: 768px) {
+.column {
+width: 100%;
+
+}
+}
+ 
+@media screen and (max-width: 414px) {
+.column {
+width: 100%;
+}
+}
